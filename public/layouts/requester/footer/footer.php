@@ -1,7 +1,9 @@
-</div>
-<!-- /. PAGE WRAPPER  -->
-</div>
-<!-- /. WRAPPER  -->
+                </div>
+
+            </div>
+            <!-- /. PAGE WRAPPER  -->
+    </div>
+    <!-- /. WRAPPER  -->
 
 
 <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->

@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Free Bootstrap Admin Template : Binary Admin</title>
 	<!-- BOOTSTRAP STYLES-->
-    <link href="assets/stylesheets/bootstrap.css" rel="stylesheet" />
+    <link href="admin/assets/stylesheets/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
-    <link href="assets/stylesheets/font-awesome.css" rel="stylesheet" />
+    <link href="admin/assets/stylesheets/font-awesome.css" rel="stylesheet" />
         <!-- CUSTOM STYLES-->
-    <link href="assets/stylesheets/custom.css" rel="stylesheet" />
+    <link href="admin/assets/stylesheets/custom.css" rel="stylesheet" />
      <!-- GOOGLE FONTS-->
    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 </head>
@@ -35,7 +35,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
 				<li class="text-center">
-                    <img src="assets/img/find_user.png" class="user-image img-responsive"/>
+                    <img src="admin/assets/img/find_user.png" class="user-image img-responsive"/>
 					</li>
 				
 					
@@ -362,13 +362,13 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
      <!-- /. WRAPPER  -->
     <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
     <!-- JQUERY SCRIPTS -->
-    <script src="assets/javascripts/jquery-1.10.2.js"></script>
+    <script src="admin/assets/javascripts/jquery-1.10.2.js"></script>
       <!-- BOOTSTRAP SCRIPTS -->
-    <script src="assets/javascripts/bootstrap.min.js"></script>
+    <script src="admin/assets/javascripts/bootstrap.min.js"></script>
     <!-- METISMENU SCRIPTS -->
-    <script src="assets/javascripts/jquery.metisMenu.js"></script>
+    <script src="admin/assets/javascripts/jquery.metisMenu.js"></script>
       <!-- CUSTOM SCRIPTS -->
-    <script src="assets/javascripts/custom.js"></script>
+    <script src="admin/assets/javascripts/custom.js"></script>
     
    
 </body>

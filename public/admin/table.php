@@ -15,7 +15,7 @@
      <!-- GOOGLE FONTS-->
    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
      <!-- TABLE STYLES-->
-    <link href="assets/stylesheets/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
+    <link href="assets/javascripts/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
 </head>
 <body>
     <div id="wrapper">

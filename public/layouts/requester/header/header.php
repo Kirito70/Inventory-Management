@@ -7,7 +7,7 @@
     <!-- BOOTSTRAP STYLES-->
 
     <!--//Included to include Style Sheet files in the page -->
-    <?php require_once("include_css.php")?>
+    <?php require_once("include_css.php") ?>
 
 </head>
 <body>
@@ -18,3 +18,12 @@
         <?php//Included to include NAVIGATION SIDE BAR files in the page?>
         <?php require_once("Navigation.php");?>
         <div id="page-wrapper" >
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Admin Dashboard</h2>
+                        <h5>Welcome Jhon Deo , Love to see you back. </h5>
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+                <hr />

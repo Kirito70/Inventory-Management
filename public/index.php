@@ -287,7 +287,7 @@ require_once("../includes/initialize.php");
                             <ul class="chat-box">
                                 <li class="left clearfix">
                                     <span class="chat-img pull-left">
-                                        <img src="assets/img/1.png" alt="User" class="img-circle" />
+                                        <img src="admin/assets/img/1.png" alt="User" class="img-circle" />
                                     </span>
                                     <div class="chat-body">                                        
                                             <strong >Jack Sparrow</strong>
@@ -302,7 +302,7 @@ require_once("../includes/initialize.php");
                                 <li class="right clearfix">
                                     <span class="chat-img pull-right">
 
-                                        <img src="assets/img/2.png" alt="User" class="img-circle" />
+                                        <img src="admin/assets/img/2.png" alt="User" class="img-circle" />
                                     </span>
                                     <div class="chat-body clearfix">
                                         
@@ -317,7 +317,7 @@ require_once("../includes/initialize.php");
                                 </li>
                                 <li class="left clearfix">
                                     <span class="chat-img pull-left">
-                                         <img src="assets/img/3.png" alt="User" class="img-circle" />
+                                         <img src="admin/assets/img/3.png" alt="User" class="img-circle" />
                                     </span>
                                     <div class="chat-body clearfix">
                                         
@@ -332,7 +332,7 @@ require_once("../includes/initialize.php");
                                 </li>
                                 <li class="right clearfix">
                                     <span class="chat-img pull-right">
-                                         <img src="assets/img/4.png" alt="User" class="img-circle" />
+                                         <img src="admin/assets/img/4.png" alt="User" class="img-circle" />
                                     </span>
                                     <div class="chat-body clearfix">
                                       
@@ -347,7 +347,7 @@ require_once("../includes/initialize.php");
                                 </li>
                                     <li class="left clearfix">
                                     <span class="chat-img pull-left">
-                                        <img src="assets/img/1.png" alt="User" class="img-circle" />
+                                        <img src="admin/assets/img/1.png" alt="User" class="img-circle" />
                                     </span>
                                     <div class="chat-body">                                        
                                             <strong >Jack Sparrow</strong>
@@ -361,7 +361,7 @@ require_once("../includes/initialize.php");
                                 </li>
                                 <li class="right clearfix">
                                     <span class="chat-img pull-right">
-                                       <img src="assets/img/2.png" alt="User" class="img-circle" />
+                                       <img src="admin/assets/img/2.png" alt="User" class="img-circle" />
                                     </span>
                                     <div class="chat-body clearfix">
                                         
@@ -420,23 +420,6 @@ require_once("../includes/initialize.php");
                  <!-- /. ROW  -->           
     </div>
              <!-- /. PAGE INNER  -->
-            </div>
-         <!-- /. PAGE WRAPPER  -->
-        </div>
-     <!-- /. WRAPPER  -->
-    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
-    <!-- JQUERY SCRIPTS -->
-    <script src="assets/javascripts/jquery-1.10.2.js"></script>
-      <!-- BOOTSTRAP SCRIPTS -->
-    <script src="assets/javascripts/bootstrap.min.js"></script>
-    <!-- METISMENU SCRIPTS -->
-    <script src="assets/javascripts/jquery.metisMenu.js"></script>
-     <!-- MORRIS CHART SCRIPTS -->
-     <script src="assets/javascripts/morris/raphael-2.1.0.min.js"></script>
-    <script src="assets/javascripts/morris/morris.js"></script>
-      <!-- CUSTOM SCRIPTS -->
-    <script src="assets/javascripts/custom.js"></script>
-    
-   
-</body>
-</html>
+
+/* Including Footer in this file*/
+<?php include_layout_template('requester/footer/footer.php') ?>

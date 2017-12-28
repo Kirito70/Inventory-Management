@@ -17,7 +17,7 @@ Including Page Headers that include all of the design for this website-->
 <!--.inner-page-login-->
   <div id="inner-page-login">
       <div id="login-container">
-        <form role="form" action="#" method="post">
+        <form action="#" method="post">
             <label class="main-heading">Login</label>
             <div class="form-group input-group">
                 <span class="input-group-addon">USERNAME </span>
