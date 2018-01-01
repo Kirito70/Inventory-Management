@@ -15,7 +15,7 @@
 
 
         <!-- /. NAV TOP  -->
-        <?php//Included to include NAVIGATION SIDE BAR files in the page?>
+        <?php//Included to include NAVIGATION SIDE BAR files in the page ?>
         <?php require_once("Navigation.php");?>
         <div id="page-wrapper" >
             <div id="page-inner">

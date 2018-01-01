@@ -1,0 +1,103 @@
+This file contains database details and can be used to know about the database structure of
+this software
+    Database Name: base-ment
+
+
+   Now we are going to list the names and details of each and every table in the.
+___________________________________________________________________________________________________
+    Table: Users
+   ------------------------------------------------------------------------------
+   This table contains the all user data and details about each and every user
+   preson in the system.
+   Column detail is given below.
+
+   --------------------------------------
+   Columns Detail
+   -----------------------------------------
+   |Sr#| Name               | Type          |
+   -----------------------------------------
+   1-    ID                     integer
+   2-    First_Name             Varchar(50)
+   3-    Last_Name              Varchar(50)
+   4-    Username               Varchar(50)
+   5-    Email                  Varchar(100)
+   6-    Password               Varchar(500)
+   7-    Status                 binary
+
+   ------------------------------------------
+   Primary Key: ID
+___________________________________________________________________________________________________
+
+___________________________________________________________________________________________________
+    Table: Users_Images
+   ------------------------------------------------------------------------------
+   This table contains all the images that has been uploaded by users and path for those
+   images. every image that a user has uploaded will stored on file system but it's detail
+   will be store here.
+   Column detail is given below.
+
+   --------------------------------------
+   Columns Detail
+   -----------------------------------------
+   |Sr#| Name               | Type          |
+   -----------------------------------------
+   1-    ID                     Integer
+   2-    Image_Path             Varchar(500)
+   3-    Image_Type             Varchar(100)
+   4-    User_Id                Integer
+   5-    Date                   Date
+
+   ------------------------------------------
+   Primary Key: ID
+   Foreign Key: User_id, From Table: Users
+___________________________________________________________________________________________________
+
+___________________________________________________________________________________________________
+       Table: Users_Categories
+      ------------------------------------------------------------------------------
+      This table contains information about user categories that are present in the
+      system so that all kinds of perviligies can be applied and revoked from them.
+      And this will make them able to add themselves in item categories that they can request.
+      Column detail is given below.
+
+      --------------------------------------
+      Columns Detail
+      -----------------------------------------
+      |Sr#| Name               | Type          |
+      -----------------------------------------
+      1-    ID                     Integer
+      2-    Category_Name          Varchar(100)
+      3-    Category_Description   Varchar(500)
+      4-    Status                 Binary
+
+      ------------------------------------------
+      Primary Key: ID
+      Foreign Key:
+      ------------------------------------------
+      Status: Default Value is true for that user is unlocked and when value is false
+      then user is locked.
+___________________________________________________________________________________________________
+
+___________________________________________________________________________________________________
+       Table: Assigned_User_Category
+      ------------------------------------------------------------------------------
+      This table contains all the users assigned to one or more categories.
+
+      --------------------------------------
+      Columns Detail
+      -----------------------------------------
+      |Sr#| Name               | Type          |
+      -----------------------------------------
+      1-    ID                     Integer
+      2-    User_Category_Id       Integer
+      3-    User_id                Integer
+      4-    User_Responsible       Integer
+
+      ------------------------------------------
+      Primary Key: ID
+      Foreign Key: User_Category_Id, From Table User Category
+      Foreign Key: User_Id, From Table Users
+      ------------------------------------------
+      Status: Default Value is true for that user is unlocked and when value is false
+      then user is locked.
+___________________________________________________________________________________________________

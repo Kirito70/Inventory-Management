@@ -1,54 +1,85 @@
-<?php 
+<?php
 
 /*
 this is a class to help maintaining the session data so that every user transaction can be maintained
 
 */
-	class Session{
-		private $logged_in;
-		public $user_id;
 
-		function __construct()
-		{
-			session_start();
-			$this->check_login();
-		}
+require_once ('Errors.php');
+require_once ('Messages.php');
+class Session {
 
-		public function is_logged_in()
-		{
-			return $this->logged_in;
-		}
+    private $logged_in=false;
+    public $user_id;
+    public $error_msg;
+    public $message;
 
-		public function login($user)
-		{
-			if($user)
-			{
-				$this->user_id = $_SESSION['user_id'] = $user->id;
-				$this->logged_in = true;
-			}
-		}
+    function __construct() {
+        session_start();
+        $this->error_msg = new Errors();
+        $this->message = new Messages();
+        //$this->check_message();
+        $this->check_login();
+        if($this->logged_in) {
+            // actions to take right away if user is logged in
+        } else {
+            // actions to take right away if user is not logged in
+        }
+    }
 
-		public function logout()
-		{
-			unset($_SESSION['user_id']);
-			unset($this->user_id);
-			$this->logged_in = false;
-		}
+    public function is_logged_in() {
+        return $this->logged_in;
+    }
 
-		private function check_login()
-		{
-			if(isset($_SESSION['user_id']))
-			{
-				$this->user_id = $_SESSION['user_id'];
-				$this->logged_in = true;
-			}	
-			else
-			{
-				unset($this->user_id);
-				$this->logged_in = false;
-			}
-		}
-	}
+    public function login($user) {
+        // database should find user based on username/password
+        if($user){
+            $this->user_id = $_SESSION['user_id'] = $user->id;
+            $this->logged_in = true;
+        }
+    }
 
-	$session = new Session();
+    public function logout() {
+        unset($_SESSION['user_id']);
+        unset($this->user_id);
+        $this->logged_in = false;
+    }
+
+    public function message($msg="") {
+        if(!empty($msg)) {
+            // then this is "set message"
+            // make sure you understand why $this->message=$msg wouldn't work
+            $_SESSION['message'] = $msg;
+        } else {
+            // then this is "get message"
+            return $this->message;
+        }
+    }
+
+    private function check_login() {
+        if(isset($_SESSION['user_id'])) {
+            $this->user_id = $_SESSION['user_id'];
+            $this->logged_in = true;
+        } else {
+            unset($this->user_id);
+            $this->logged_in = false;
+        }
+    }
+
+    private function check_message() {
+        // Is there a message stored in the session?
+        if(isset($_SESSION['message'])) {
+            // Add it as an attribute and erase the stored version
+            $this->message = $_SESSION['message'];
+            unset($_SESSION['message']);
+        } else {
+            $this->message = "";
+        }
+    }
+
+}
+
+$session = new Session();
+$message = $session->message();
+
 ?>

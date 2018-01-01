@@ -21,7 +21,7 @@
 			$this->real_escape_string_exists = function_exists("mysql_real_escape_string");
 
 			if(!$this->connection){
-				die("Database connection failed: ".mysqli_error());
+				die("Database connection failed: ".mysqli_error(0));
 			}
 		}
 
@@ -61,7 +61,7 @@
 		/*
 			Performs a query to return data or others CRUD operations
 		*/
-		public function Perform_Return_Query($statement)
+		public function query($statement)
 		{
 			$this->last_query = $statement;
 			$result  = mysqli_query($this->connection,$statement);
@@ -133,7 +133,7 @@
 					//undo any magic qoute effects so mysql_real_escape_string can do the work
 
 					if($magic_quotes_active)
-					{ 
+					{
 						$value = stripslashes($value);
 					}
 					$value = mysql_real_escape_string($value);

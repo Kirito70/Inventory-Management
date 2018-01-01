@@ -10,8 +10,10 @@ require_once(LIB_PATH .DS."Functions". DS . "functions.php");
 
 /*now core objects are to be loaded like session or database*/
 require_once(LIB_PATH . DS . "session.php");
+require_once (LIB_PATH.DS."database".DS."DatabaseObject.php");
 require_once(LIB_PATH . DS. "database" .DS. "database.php");
 
 /*now load database related classes*/
-require_once(LIB_PATH . DS . "user.php");
+require_once(LIB_PATH . DS . "user".DS."user.php");
+require_once(LIB_PATH . DS . "user".DS."UserCategory.php");
 ?>
