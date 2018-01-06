@@ -11,9 +11,9 @@ require_once ("../../includes/database/DatabaseObject.php");
 class UserCategory extends DatabaseObject
 {
     protected static $table_name = "user_category";
-    protected static $db_fields = array('category_name','category_description');
+    protected static $db_fields = array('id','category_name','category_description','status');
 
-    public $id;
+    public $id = 0;
     public $category_name;
     public $category_description;
     public $status = true;
@@ -36,6 +36,18 @@ class UserCategory extends DatabaseObject
         }
 
 
+    }
+
+    public function category_exists()
+    {
+        if(!self::find_by_unique_field("category_name", $this->category_name))
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
     }
 
 }

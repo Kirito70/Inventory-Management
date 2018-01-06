@@ -21,6 +21,7 @@
         {
             $message = "User Category added Successfully";
             $session->message->add_message($message);
+            echo $category->id;
         }else
         {
             $message = "User category cannot be added due to some problem.";
@@ -37,6 +38,35 @@
     /*Including ADMIN HEADER in the website page*/
     require_once ("layouts/admin/header/admin_header.php");
 ?>
+
+<script>
+    $(Document).ready(function () {
+        $('#category-name').focusout(function () {
+
+            var cname =$('#category-name').val();
+
+            $.ajax({
+                type: "POST",
+                url: "ajax.php",
+                data: { category_name: cname },
+                success: function (result) {
+                    if(result)
+                    {
+
+                        $('#category-exist').text("User Category already exists.");
+                        $(':input[type="submit"]').prop('disabled',true);
+                    }
+                    else
+                    {
+                        $('#category-exist').text("");
+                        $(':input[type="submit"]').prop('disabled',false);
+                    }
+                }
+            });
+        });
+    });
+
+</script>
 
     <!-- Making Form to add new user in the system. -->
     <!--Display Error Message...-->
@@ -64,15 +94,16 @@
                             <form role="form" action="add_user_category.php" method="post">
                                 <div class="form-group">
                                     <label>Category Name</label>
-                                    <input class="form-control" type="text" name="category-name" required="required" placeholder="Category Name" maxlength="100"/>
+                                    <input class="form-control" type="text" id="category-name" name="category-name" required="required" placeholder="Category Name" maxlength="100" />
+                                    <div class="label-danger" id="category-exist"></div>
                                 </div>
 
                                 <div class="form-group">
                                     <label>Category Description</label>
-                                    <input class="form-control" type="text" name="category-description" placeholder="Category Description" maxlength="100"/>
+                                    <textarea class="form-control" maxlength="500" name="category-description" placeholder="Category Description"></textarea>
                                 </div>
 
-                                <input class="btn-primary" type="submit" name="add_user_category" value="Submit"/>
+                                <input class="btn-primary" id="btsubmit" type="submit" name="add_user_category" value="Submit"/>
                                 <input class="btn-default" type="reset" name="reset" value="Reset"/>
                             </form>
                         </div>

@@ -4,6 +4,10 @@
     require_once ("../../includes/initialize/admin_initialize.php");
 ?>
 
+<?php
+    $user_categories = UserCategory::find_all();
+    //var_dump($user_categories);
+?>
 
 <?php
     /*Including ADMIN HEADER in the website page*/
@@ -25,13 +29,45 @@
 
                         <form role="form" action="add_user_category.php" method="post">
                             <div class="form-group">
-                                <label>Category Name</label>
-                                <input class="form-control" type="text" name="category-name" required="required" placeholder="Category Name" maxlength="100"/>
+                                <label>First Name</label>
+                                <input class="form-control" type="text" name="first-name" required="required" placeholder="First Name" maxlength="50"/>
                             </div>
 
                             <div class="form-group">
-                                <label>Category Description</label>
-                                <input class="form-control" type="text" name="category-description" placeholder="Category Description" maxlength="100"/>
+                                <label>Last Name</label>
+                                <input class="form-control" type="text" name="last-name" placeholder="Last Name" required="required" maxlength="50"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Username</label>
+                                <input class="form-control" type="text" name="username" required="required" placeholder="Username" maxlength="50"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input class="form-control" type="email" name="email" required="required" placeholder="Email" maxlength="100"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input class="form-control" type="password" name="password" placeholder="Password" maxlength="500" required="required"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label>User Category</label>
+                               <select class="form-control" >
+                                    <?php foreach($user_categories as $category) { ?>
+
+
+                                        <option><?php  echo htmlentities($category->category_name) ?></option>
+
+                                    <?php } ?>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Picture</label>
+                                <input class="form-control" type="file" name="user-picture" placeholder="User Image" />
                             </div>
 
                             <input class="btn-primary" type="submit" name="add_user_category" value="Submit"/>

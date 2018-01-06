@@ -16,25 +16,46 @@ class DatabaseObject
         return self::find_by_sql("SELECT * FROM " . static::$table_name);
     }
 
+    /*
+     * To find data with id present in the database table
+     * */
     public static function find_by_id($id = 0)
     {
         $result_array = self::find_by_sql("SELECT * FROM " . static::$table_name . " WHERE id={$id} LIMIT 1");
         return !empty($result_array) ? array_shift($result_array) : false;
     }
 
-    public static function find_by_field($field="", $value="")
+    /*
+     * More optimized to return only one line if field has the same value in it
+     * */
+    public static function find_by_unique_field($field="", $value="")
     {
-        $result_array = self::find_by_sql("SELECT * FROM " . static::$table_name . " WHERE {$field}={$value} LIMIT 1");
+        $result_array = self::find_by_sql("SELECT id FROM " . static::$table_name .
+            " WHERE ".$field." = '".$value."' LIMIT 1");
         return !empty($result_array) ? array_shift($result_array) : false;
     }
 
+    /*
+     * To find data by any field by passing value in the argument of function
+     * */
+    public static function find_by_field($field="", $value="")
+    {
+        $result_array = self::find_by_sql("SELECT * FROM " . static::$table_name . " WHERE {$field}={$value}");
+        return !empty($result_array) ? array_shift($result_array) : false;
+    }
+
+    /*
+     * To make this function more generic we can pass sql query to return data
+     * */
     public static function find_by_sql($sql="") {
         global $database;
         $result_set = $database->query($sql);
+
         $object_array = array();
         while ($row = $database->fetch_array($result_set)) {
-            $object_array[] = static::instantiate($row);
+            array_push($object_array,static::instantiate($row));
         }
+
         return $object_array;
     }
 
@@ -49,7 +70,7 @@ class DatabaseObject
     private static function instantiate($record) {
         // Could check that $record exists and is an array
         $called_class = get_called_class();
-        $object = new $called_class;
+        $object = new $called_class();
         // Simple, long-form approach:
         // $object->id 				= $record['id'];
         // $object->username 	= $record['username'];
@@ -63,22 +84,25 @@ class DatabaseObject
                 $object->$attribute = $value;
             }
         }
+
         return $object;
     }
 
     private function has_attribute($attribute) {
         // We don't care about the value, we just want to know if the key exists
         // Will return true or false
+
         return array_key_exists($attribute, $this->attributes());
     }
 
     protected function attributes() {
         // return an array of attribute names and their values
         $class_name = get_called_class();
+
         $attributes = array();
         foreach(static::$db_fields as $field) {
             if(property_exists($class_name, $field)) {
-                $attributes[$field] = $this->field;
+                $attributes[$field] = $this->$field;
             }
         }
         return $attributes;
@@ -97,7 +121,7 @@ class DatabaseObject
 
     public function save() {
         // A new record won't have an id yet.
-        return isset($this->id) ? $this->update() : $this->create();
+        return (isset($this->id) && $this->id != 0) ? $this->update() : $this->create();
     }
 
     public function create() {
@@ -109,7 +133,7 @@ class DatabaseObject
         $attributes = $this->sanitized_attributes();
         $sql = "INSERT INTO ".static::$table_name." (";
         $sql .= join(", ", array_keys($attributes));
-        $sql .= ") VALUES ('";
+        $sql .= ") VALUES (' ";
         $sql .= join("', '", array_values($attributes));
         $sql .= "')";
         if($database->query($sql)) {

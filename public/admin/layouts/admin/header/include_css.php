@@ -11,6 +11,7 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 <!-- TABLE STYLES-->
 <link href="assets/javascripts/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
+<script type="text/javascript" src="assets/javascripts/jquery-3.2.1.min.js"></script>
 
 
 
