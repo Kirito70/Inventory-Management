@@ -20,4 +20,5 @@
 
     /*PHP native constant that is being used to define a path w.r.t native path which is going to be used most of the time*/
     defined('LIB_PATH')? null : define('LIB_PATH',SITE_ROOT.DS.'includes');
+    
     ?>

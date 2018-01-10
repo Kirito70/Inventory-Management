@@ -21,7 +21,7 @@
         {
             $message = "User Category added Successfully";
             $session->message->add_message($message);
-            echo $category->id;
+            //echo $category->id;
         }else
         {
             $message = "User category cannot be added due to some problem.";

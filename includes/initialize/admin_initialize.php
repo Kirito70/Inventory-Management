@@ -14,6 +14,10 @@ require_once (LIB_PATH.DS."database".DS."DatabaseObject.php");
 require_once(LIB_PATH . DS. "database" .DS. "database.php");
 
 /*now load database related classes*/
+
+/* Icluding User Related Files*/
 require_once(LIB_PATH . DS . "user".DS."user.php");
 require_once(LIB_PATH . DS . "user".DS."UserCategory.php");
+require_once(LIB_PATH . DS . "user".DS."user_picture.php");
+require_once(LIB_PATH . DS . "user".DS."assigned_user_category.php");
 ?>

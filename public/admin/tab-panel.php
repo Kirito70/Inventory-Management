@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Free Bootstrap Admin Template : Binary Admin</title>
 	<!-- BOOTSTRAP STYLES-->
-    <link href="assets/stylesheets/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
-    <link href="assets/stylesheets/font-awesome.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
         <!-- CUSTOM STYLES-->
-    <link href="assets/stylesheets/custom.css" rel="stylesheet" />
+    <link href="assets/css/custom.css" rel="stylesheet" />
      <!-- GOOGLE FONTS-->
    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 </head>
@@ -23,12 +23,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Binary admin</a>
+                <a class="navbar-brand" href="index.html">Binary admin</a> 
             </div>
   <div style="color: white;
 padding: 15px 50px 5px 50px;
 float: right;
-font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-danger square-btn-adjust">Logout</a> </div>
+font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="login.html" class="btn btn-danger square-btn-adjust">Logout</a> </div>
         </nav>   
            <!-- /. NAV TOP  -->
                 <nav class="navbar-default navbar-side" role="navigation">
@@ -40,25 +40,30 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
 				
 					
                     <li>
-                        <a  href="index.php"><i class="fa fa-dashboard fa-3x"></i> Dashboard</a>
+                        <a  href="index.html"><i class="fa fa-dashboard fa-3x"></i> Dashboard</a>
                     </li>
                       <li>
-                        <a  href="ui.php"><i class="fa fa-desktop fa-3x"></i> UI Elements</a>
+                        <a  href="ui.html"><i class="fa fa-desktop fa-3x"></i> UI Elements</a>
                     </li>
                     <li>
-                        <a  class="active-menu" href="tab-panel.php"><i class="fa fa-qrcode fa-3x"></i> Tabs & Panels</a>
+                        <a  class="active-menu" href="tab-panel.html"><i class="fa fa-qrcode fa-3x"></i> Tabs & Panels</a>
                     </li>
 						   <li  >
-                        <a  href="chart.php"><i class="fa fa-bar-chart-o fa-3x"></i> Morris Charts</a>
+                        <a  href="chart.html"><i class="fa fa-bar-chart-o fa-3x"></i> Morris Charts</a>
                     </li>	
                       <li  >
-                        <a  href="table.php"><i class="fa fa-table fa-3x"></i> Table Examples</a>
+                        <a  href="table.html"><i class="fa fa-table fa-3x"></i> Table Examples</a>
                     </li>
                     <li  >
-                        <a  href="form.php"><i class="fa fa-edit fa-3x"></i> Forms </a>
+                        <a  href="form.html"><i class="fa fa-edit fa-3x"></i> Forms </a>
                     </li>				
 					
-					                   
+					 <li  >
+                        <a   href="login.html"><i class="fa fa-bolt fa-3x"></i> Login</a>
+                    </li>	
+                     <li  >
+                        <a   href="registeration.html"><i class="fa fa-laptop fa-3x"></i> Registeration</a>
+                    </li>	                  
                     <li>
                         <a href="#"><i class="fa fa-sitemap fa-3x"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
@@ -87,7 +92,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                         </ul>
                       </li>  
                   <li  >
-                        <a  href="blank.php"><i class="fa fa-square-o fa-3x"></i> Blank Page</a>
+                        <a  href="blank.html"><i class="fa fa-square-o fa-3x"></i> Blank Page</a>
                     </li>	
                 </ul>
                
@@ -362,13 +367,13 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
      <!-- /. WRAPPER  -->
     <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
     <!-- JQUERY SCRIPTS -->
-    <script src="assets/javascripts/jquery-1.10.2.js"></script>
+    <script src="assets/js/jquery-1.10.2.js"></script>
       <!-- BOOTSTRAP SCRIPTS -->
-    <script src="assets/javascripts/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
     <!-- METISMENU SCRIPTS -->
-    <script src="assets/javascripts/jquery.metisMenu.js"></script>
+    <script src="assets/js/jquery.metisMenu.js"></script>
       <!-- CUSTOM SCRIPTS -->
-    <script src="assets/javascripts/custom.js"></script>
+    <script src="assets/js/custom.js"></script>
     
    
 </body>

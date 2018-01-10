@@ -1,74 +1,80 @@
-<?php 
-	require_once("../../includes/initialize.php");
-	// require_once("../../includes/session.php");
-	// require_once("../../includes/database.php");
-	// require_once("../../includes/user.php");
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free Bootstrap Admin Template : Binary Admin</title>
+	<!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+     <!-- GOOGLE FONTS-->
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
-	if($session->is_logged_in())
-	{
-		redirect_to("index.php");
-	}
-	$message = "";
-	
-	if(isset($_POST['submit']))
-	{
-		$username = trim($_POST['username']);
-		$password = trim($_POST['password']);
+</head>
+<body>
+    <div class="container">
+        <div class="row text-center ">
+            <div class="col-md-12">
+                <br /><br />
+                <h2> Binary Admin : Login</h2>
+               
+                <h5>( Login yourself to get access )</h5>
+                 <br />
+            </div>
+        </div>
+         <div class="row ">
+               
+                  <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                        <strong>   Enter Details To Login </strong>  
+                            </div>
+                            <div class="panel-body">
+                                <form role="form">
+                                       <br />
+                                     <div class="form-group input-group">
+                                            <span class="input-group-addon"><i class="fa fa-tag"  ></i></span>
+                                            <input type="text" class="form-control" placeholder="Your Username " />
+                                        </div>
+                                                                              <div class="form-group input-group">
+                                            <span class="input-group-addon"><i class="fa fa-lock"  ></i></span>
+                                            <input type="password" class="form-control"  placeholder="Your Password" />
+                                        </div>
+                                    <div class="form-group">
+                                            <label class="checkbox-inline">
+                                                <input type="checkbox" /> Remember me
+                                            </label>
+                                            <span class="pull-right">
+                                                   <a href="#" >Forget password ? </a> 
+                                            </span>
+                                        </div>
+                                     
+                                     <a href="index.html" class="btn btn-primary ">Login Now</a>
+                                    <hr />
+                                    Not register ? <a href="registeration.html" >click here </a> 
+                                    </form>
+                            </div>
+                           
+                        </div>
+                    </div>
+                
+                
+        </div>
+    </div>
 
-		$found_user = User::authenticate($username,$password);
-		
-		if($found_user)
-		{
-			$session->login($found_user);
-			redirect_to("index.php");
-		}else {
-			$message = "Username or Password is incorrect.";
-		}
-	}else
-	{
-		$username = "";
-		$password = "";
-	}
-?>
-<html>
-	<head>
-		<title>Admin Login</title>
-		<link rel="stylesheet" type="text/css" href="../stylesheets/main.css" media="all">
-	</head>
-	<body>
-		<div id="header">
-			<h1>Photo Gallery Admin Login</h1>
-		</div>
 
-		<div id="main">
-			<h2>Admin Login</h2>
-			<?php echo output_message($message); ?>
-
-			<form action="login.php" method="post">
-				<table>
-					<tr>
-						<td>Username:</td>
-						<td>
-							<input type="text" name="username" maxlength="30" value="<?php echo htmlentities($username);?>"/>
-						</td>
-					</tr>
-					<tr>
-						<td>Password:</td>
-						<td>
-							<input type="password" name="password" maxlength="50" value="<?php echo htmlentities($password)?>"/>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="2">
-							<input type="submit" name="submit" value="Login"/>
-						</td>
-					</tr>
-				</table>
-			</form>
-
-		</div>
-
-		<div id="footer">Copyright <?php echo date("Y",time());?> Kirito</div>
-	</body>
+     <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+      <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+      <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+   
+</body>
 </html>
-<?php if(isset($database)) {$database->close_connection();}?>

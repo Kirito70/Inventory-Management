@@ -42,7 +42,7 @@ ________________________________________________________________________________
    |Sr#| Name               | Type          |
    -----------------------------------------
    1-    ID                     Integer
-   2-    Image_Path             Varchar(500)
+   2-    Image_name             Varchar(500)
    3-    Image_Type             Varchar(100)
    4-    User_Id                Integer
    5-    Date                   Date

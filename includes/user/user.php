@@ -7,20 +7,34 @@
 	    protected static $table_name = "users";
 	    protected static $db_fields = array('id','first_name','last_name','username','email','password');
 
-		public $id;
+		public $id = 0;
 		public $username;
 		public $first_name;
 		public $last_name;
 		public $password;
 		public $email;
 		public $status = true;
+		public $image;
 
 		public static function make($id,$first_name="",$last_name="",$username="",$email="")
         {
+            $new_user = new User();
 
+            $new_user->id = $id;
+            $new_user->first_name = $first_name;
+            $new_user->last_name = $last_name;
+            $new_user->username = $username;
+            $new_user->email = $email;
+
+            return $new_user;
         }
 
-		public function add_user()
+        public function full_name()
+        {
+            return $this->first_name." ".$this->last_name;
+        }
+
+		public function add_user($file = "")
         {
 
         }
@@ -64,6 +78,18 @@
 		{
 			return $this->first_name." ".$this->last_name;
 		}
+
+        public function user_exists()
+        {
+            if(!self::find_by_unique_field("username", $this->username))
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
 
 	}
 ?>

@@ -5,18 +5,338 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5668721f-15fe-4705-b0ac-a622362f159c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/ajax.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/javascripts/jquery-3.2.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/javascripts/jquery-3.2.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/user/assigned_user_category.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/user/user_picture.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/css/bootstrap-grid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/css/bootstrap-grid.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/css/bootstrap-grid.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/css/bootstrap-grid.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/css/bootstrap-reboot.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/css/bootstrap-reboot.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/css/bootstrap-reboot.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/css/bootstrap-reboot.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/js/bootstrap.bundle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/js/bootstrap.bundle.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/js/bootstrap.bundle.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/js/bootstrap.bundle.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/js/bootstrap.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/js/bootstrap.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/css/select2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/css/select2.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/js/pwstrength-bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/js/pwstrength-bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/js/pwstrength-bootstrap.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/js/select2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/js/select2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/accordion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/accordion.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/accordion.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/accordion.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/ad.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/ad.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/api.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/api.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/breadcrumb.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/breadcrumb.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/button.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/button.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/card.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/card.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/checkbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/checkbox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/checkbox.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/checkbox.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/colorize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/colorize.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/comment.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/comment.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/container.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/container.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/dimmer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/dimmer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/dimmer.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/dimmer.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/divider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/divider.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/dropdown.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/dropdown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/dropdown.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/dropdown.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/embed.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/embed.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/embed.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/embed.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/feed.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/feed.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/flag.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/flag.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/form.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/form.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/form.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/grid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/grid.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/header.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/header.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/icon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/icon.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/image.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/image.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/input.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/input.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/item.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/label.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/label.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/list.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/list.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/loader.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/loader.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/menu.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/message.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/message.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/modal.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/modal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/modal.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/modal.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/nag.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/nag.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/nag.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/nag.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/popup.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/popup.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/popup.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/popup.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/progress.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/progress.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/progress.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/progress.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/rail.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/rail.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/rating.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/rating.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/rating.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/rating.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/reset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/reset.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/reveal.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/reveal.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/search.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/search.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/search.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/search.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/segment.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/segment.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/shape.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/shape.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/shape.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/shape.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/sidebar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/sidebar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/sidebar.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/sidebar.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/site.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/site.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/site.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/site.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/state.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/state.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/statistic.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/statistic.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/step.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/step.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/sticky.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/sticky.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/sticky.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/sticky.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/tab.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/tab.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/tab.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/tab.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/table.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/table.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/transition.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/transition.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/transition.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/transition.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/video.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/video.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/video.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/video.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/visibility.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/visibility.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/visit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/components/visit.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/semantic.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/semantic.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/semantic.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/semantic.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/basic/assets/fonts/icons.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/basic/assets/fonts/icons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/basic/assets/fonts/icons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/basic/assets/fonts/icons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/default/assets/fonts/icons.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/default/assets/fonts/icons.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/default/assets/fonts/icons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/default/assets/fonts/icons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/default/assets/fonts/icons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/default/assets/fonts/icons.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/default/assets/images/flags.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/github/assets/fonts/octicons-local.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/github/assets/fonts/octicons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/github/assets/fonts/octicons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/github/assets/fonts/octicons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/material/assets/fonts/icons.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/material/assets/fonts/icons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/material/assets/fonts/icons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/material/assets/fonts/icons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/assets/semantic/themes/material/assets/fonts/icons.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/admin/registeration.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/custom.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/custom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/dataTables/dataTables.bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/dataTables/dataTables.bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/dataTables/jquery.dataTables.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/jquery-1.10.2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/jquery.metisMenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/morris/morris-0.4.3.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/morris/morris.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/morris/raphael-2.1.0.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/uploads/user_img/default.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/includes/database/DatabaseObject.php" afterPath="$PROJECT_DIR$/includes/database/DatabaseObject.php" />
-      <change beforePath="$PROJECT_DIR$/includes/user/UserCategory.php" afterPath="$PROJECT_DIR$/includes/user/UserCategory.php" />
+      <change beforePath="$PROJECT_DIR$/Documentation/Database/User.txt" afterPath="$PROJECT_DIR$/Documentation/Database/User.txt" />
+      <change beforePath="$PROJECT_DIR$/includes/initialize/admin_initialize.php" afterPath="$PROJECT_DIR$/includes/initialize/admin_initialize.php" />
+      <change beforePath="$PROJECT_DIR$/includes/initialize/path_initialize.php" afterPath="$PROJECT_DIR$/includes/initialize/path_initialize.php" />
       <change beforePath="$PROJECT_DIR$/includes/user/user.php" afterPath="$PROJECT_DIR$/includes/user/user.php" />
       <change beforePath="$PROJECT_DIR$/public/admin/add_user.php" afterPath="$PROJECT_DIR$/public/admin/add_user.php" />
       <change beforePath="$PROJECT_DIR$/public/admin/add_user_category.php" afterPath="$PROJECT_DIR$/public/admin/add_user_category.php" />
+      <change beforePath="$PROJECT_DIR$/public/admin/ajax.php" afterPath="$PROJECT_DIR$/public/admin/ajax.php" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/admin/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/admin/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/admin/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/admin/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/custom.js" afterPath="$PROJECT_DIR$/public/admin/assets/js/custom.js" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/dataTables/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/public/admin/assets/js/dataTables/dataTables.bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/dataTables/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/public/admin/assets/js/dataTables/dataTables.bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/dataTables/jquery.dataTables.js" afterPath="$PROJECT_DIR$/public/admin/assets/js/dataTables/jquery.dataTables.js" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/public/admin/assets/js/jquery-1.10.2.js" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/public/admin/assets/js/jquery-3.2.1.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/jquery.metisMenu.js" afterPath="$PROJECT_DIR$/public/admin/assets/js/jquery.metisMenu.js" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/Gruntfile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/bower.travis.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/_template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/area-as-line.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/area.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/bar-colors.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/bar-no-axes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/bar.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/days.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/decimal-custom-hover.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/diagonal-xlabels-bar.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/diagonal-xlabels.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/donut-colors.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/donut-formatter.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/donut.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/dst.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/events.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/goals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/lib/example.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/lib/example.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/months-no-smooth.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/negative.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/no-grid.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/non-continuous.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/non-date.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/quarters.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/resize.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/stacked_bars.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/timestamps.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/updating.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/weeks.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/examples/years.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/less/morris.core.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/lib/morris.area.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/lib/morris.bar.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/lib/morris.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/lib/morris.donut.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/lib/morris.grid.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/lib/morris.hover.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/lib/morris.line.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/morris-min.css" afterPath="$PROJECT_DIR$/public/admin/assets/js/morris/morris-0.4.3.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/morris.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/morris.js" afterPath="$PROJECT_DIR$/public/admin/assets/js/morris/morris.js" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/morris.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/raphael-2.1.0.min.js" afterPath="$PROJECT_DIR$/public/admin/assets/js/morris/raphael-2.1.0.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/lib/area/area_spec.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/lib/bar/bar_spec.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/lib/bar/colours.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/lib/commas_spec.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/lib/donut/donut_spec.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/lib/grid/auto_grid_lines_spec.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/lib/grid/set_data_spec.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/lib/grid/y_label_format_spec.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/lib/hover_spec.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/lib/label_series_spec.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/lib/line/line_spec.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/lib/pad_spec.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/lib/parse_time_spec.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/specs.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/support/placeholder.coffee" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/viz/examples.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/viz/exemplary/area0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/viz/exemplary/bar0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/viz/exemplary/line0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/viz/exemplary/stacked_bar0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/viz/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/viz/test.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/javascripts/morris/spec/viz/visual_specs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/stylesheets/bootstrap.css" afterPath="$PROJECT_DIR$/public/admin/assets/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/stylesheets/custom.css" afterPath="$PROJECT_DIR$/public/admin/assets/css/custom.css" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/stylesheets/font-awesome.css" afterPath="$PROJECT_DIR$/public/admin/assets/css/font-awesome.css" />
+      <change beforePath="$PROJECT_DIR$/public/admin/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/admin/assets/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/public/admin/blank.php" afterPath="$PROJECT_DIR$/public/admin/blank.php" />
+      <change beforePath="$PROJECT_DIR$/public/admin/chart.php" afterPath="$PROJECT_DIR$/public/admin/chart.php" />
+      <change beforePath="$PROJECT_DIR$/public/admin/form.php" afterPath="$PROJECT_DIR$/public/admin/form.php" />
+      <change beforePath="$PROJECT_DIR$/public/admin/index.php" afterPath="$PROJECT_DIR$/public/admin/index.php" />
+      <change beforePath="$PROJECT_DIR$/public/admin/layouts/admin/footer/admin_footer.php" afterPath="$PROJECT_DIR$/public/admin/layouts/admin/footer/admin_footer.php" />
       <change beforePath="$PROJECT_DIR$/public/admin/layouts/admin/footer/include_js.php" afterPath="$PROJECT_DIR$/public/admin/layouts/admin/footer/include_js.php" />
-      <change beforePath="$PROJECT_DIR$/public/admin/layouts/admin/header/admin_header.php" afterPath="$PROJECT_DIR$/public/admin/layouts/admin/header/admin_header.php" />
+      <change beforePath="$PROJECT_DIR$/public/admin/layouts/admin/header/Navigation.php" afterPath="$PROJECT_DIR$/public/admin/layouts/admin/header/Navigation.php" />
       <change beforePath="$PROJECT_DIR$/public/admin/layouts/admin/header/include_css.php" afterPath="$PROJECT_DIR$/public/admin/layouts/admin/header/include_css.php" />
+      <change beforePath="$PROJECT_DIR$/public/admin/login.php" afterPath="$PROJECT_DIR$/public/admin/login.php" />
+      <change beforePath="$PROJECT_DIR$/public/admin/tab-panel.php" afterPath="$PROJECT_DIR$/public/admin/tab-panel.php" />
+      <change beforePath="$PROJECT_DIR$/public/admin/table.php" afterPath="$PROJECT_DIR$/public/admin/table.php" />
+      <change beforePath="$PROJECT_DIR$/public/admin/ui.php" afterPath="$PROJECT_DIR$/public/admin/ui.php" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.woff" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,27 +345,52 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\xampp\htdocs\Inventory-Management\exportToHTML" />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5008091">
+    <splitter split-orientation="horizontal" split-proportion="0.56592137">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/includes/session.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1377">
-                  <caret line="84" column="2" lean-forward="false" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
+                <state relative-caret-position="188">
+                  <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="add_user.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/admin/add_user.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-272">
+                  <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
                   <folding>
-                    <element signature="e#7#115#0#PHP" expanded="true" />
+                    <marker date="1515589055092" expanded="true" signature="3016:3063" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="add_user.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/admin/add_user.php">
+          <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/includes/Functions/functions.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+                <state relative-caret-position="590">
+                  <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -55,29 +400,37 @@
             <entry file="file://$PROJECT_DIR$/includes/initialize/admin_initialize.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="289">
-                  <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+                  <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/includes/user/user.php">
+          <file leaf-file-name="admin_header.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/admin/layouts/admin/header/admin_header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="731">
-                  <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-                  <folding>
-                    <marker date="1514902371330" expanded="true" signature="1359:1378" ph="select * fro... users" />
-                  </folding>
+                <state relative-caret-position="204">
+                  <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ajax.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="assigned_user_category.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/includes/user/assigned_user_category.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ajax.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/admin/ajax.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+                <state relative-caret-position="345">
+                  <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -87,21 +440,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Messages.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/includes/Messages.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="DatabaseObject.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/includes/database/DatabaseObject.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="290">
-                  <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+                <state relative-caret-position="217">
+                  <caret line="179" column="17" lean-forward="false" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="17" />
                   <folding>
                     <marker date="1515205346001" expanded="true" signature="307:320" ph="SELECT * FRO... " />
                     <marker date="1515205346001" expanded="true" signature="307:321" ph="SELECT * FRO... ${self::$table_name}" />
@@ -110,33 +453,23 @@
                     <marker date="1515205346001" expanded="true" signature="891:952" ph="SELECT id FR... ${static::$table_name}" />
                     <marker date="1515205346001" expanded="true" signature="891:962" ph="SELECT id FR... ${static::$table_name}" />
                     <marker date="1515205346001" expanded="true" signature="891:985" ph="SELECT id FR... ${static::$table_name}" />
-                    <marker date="1515205346001" expanded="true" signature="891:1980" ph="SELECT id FR... ${static::$table_name}" />
                     <marker date="1515205346001" expanded="true" signature="1278:1335" ph="SELECT * FRO... ${static::$table_name}" />
-                    <marker date="1515205346001" expanded="true" signature="1278:1343" ph="SELECT * FRO... ${static::$table_name}" />
-                    <marker date="1515205346001" expanded="true" signature="1938:1959" ph="SELECT COUNT... ${self::$table_name}" />
-                    <marker date="1515205346001" expanded="true" signature="4423:4460" ph="INSERT INTO ${self::$table_name}... " />
-                    <marker date="1515205346001" expanded="true" signature="5821:5833" ph="DELETE FROM " />
+                    <marker date="1515205346001" expanded="true" signature="1938:1959" ph="SELECT COUNT... ${static::$table_name}" />
+                    <marker date="1515205346001" expanded="true" signature="4423:4460" ph="INSERT INTO ${static::$table_name}... " />
+                    <marker date="1515205346001" expanded="true" signature="5821:5833" ph="DELETE FROM ${static::$table_name}... " />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/admin/form.php">
+          <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/includes/user/user.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3043">
-                  <caret line="182" column="50" lean-forward="false" selection-start-line="182" selection-start-column="50" selection-end-line="182" selection-end-column="50" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="add_user_category.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/admin/add_user_category.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="49" column="26" lean-forward="false" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-                  <folding />
+                <state relative-caret-position="-246">
+                  <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                  <folding>
+                    <marker date="1515564365725" expanded="true" signature="1786:1805" ph="select * fro... users" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -144,8 +477,28 @@
           <file leaf-file-name="UserCategory.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/includes/user/UserCategory.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+                <state relative-caret-position="229">
+                  <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="add_user_category.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/admin/add_user_category.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="75" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="78" selection-end-column="2" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="user_picture.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/includes/user/user_picture.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="109" column="53" lean-forward="true" selection-start-line="109" selection-start-column="53" selection-end-line="109" selection-end-column="53" />
                   <folding />
                 </state>
               </provider>
@@ -160,6 +513,12 @@
       <find>sanitized_attributes</find>
       <find>?&gt;</find>
       <find>focusout</find>
+      <find>drop</find>
+      <find>select2</find>
+      <find>echo</find>
+      <find>$category</find>
+      <find>$id</find>
+      <find>$user_category</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,43 +532,46 @@
         <option value="$PROJECT_DIR$/public/blank.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/public/layouts/admin/footer/admin_footer.php" />
-        <option value="$PROJECT_DIR$/includes/initialize/path_initialize.php" />
         <option value="$PROJECT_DIR$/includes/user.php" />
         <option value="$PROJECT_DIR$/public/layouts/admin/footer/include_js.php" />
         <option value="$PROJECT_DIR$/public/layouts/admin/header/include_css.php" />
         <option value="$PROJECT_DIR$/public/layouts/admin/header/include_js.php" />
         <option value="$PROJECT_DIR$/public/layouts/admin/header/Navigation.php" />
-        <option value="$PROJECT_DIR$/public/admin/layouts/admin/header/Navigation.php" />
         <option value="$PROJECT_DIR$/public/admin/index.php" />
         <option value="$PROJECT_DIR$/public/admin/layouts/admin/header/include_js.php" />
         <option value="$PROJECT_DIR$/public/layouts/requester/header/include_js.php" />
         <option value="$PROJECT_DIR$/public/layouts/requester/footer/include_js.php" />
         <option value="$PROJECT_DIR$/public/layouts/requester/header/include_css.php" />
-        <option value="$PROJECT_DIR$/public/admin/layouts/admin/footer/admin_footer.php" />
-        <option value="$PROJECT_DIR$/public/admin/blank.php" />
         <option value="$PROJECT_DIR$/includes/database/DatabseObject.php" />
         <option value="$PROJECT_DIR$/Documentation/Database/Database Structure.txt" />
-        <option value="$PROJECT_DIR$/Documentation/Database/User.txt" />
         <option value="$PROJECT_DIR$/includes/Erorrs.php" />
         <option value="$PROJECT_DIR$/includes/Error.php" />
         <option value="$PROJECT_DIR$/includes/Messages.php" />
-        <option value="$PROJECT_DIR$/includes/initialize/admin_initialize.php" />
         <option value="$PROJECT_DIR$/includes/Errors.php" />
         <option value="$PROJECT_DIR$/includes/session.php" />
         <option value="$PROJECT_DIR$/includes/database/database.php" />
         <option value="$PROJECT_DIR$/includes/database/db_config.php" />
-        <option value="$PROJECT_DIR$/includes/Functions/functions.php" />
         <option value="$PROJECT_DIR$/includes/GeneralClass.php" />
-        <option value="$PROJECT_DIR$/includes/user/user.php" />
-        <option value="$PROJECT_DIR$/public/admin/add_user.php" />
+        <option value="$PROJECT_DIR$/includes/database/DatabaseObject.php" />
+        <option value="$PROJECT_DIR$/public/admin/ajax_user_category.php" />
+        <option value="$PROJECT_DIR$/public/admin/blank.php" />
+        <option value="$PROJECT_DIR$/public/admin/form.php" />
+        <option value="$PROJECT_DIR$/public/admin/layouts/admin/header/Navigation.php" />
+        <option value="$PROJECT_DIR$/includes/initialize/path_initialize.php" />
+        <option value="$PROJECT_DIR$/public/admin/layouts/admin/footer/admin_footer.php" />
         <option value="$PROJECT_DIR$/public/admin/layouts/admin/header/admin_header.php" />
         <option value="$PROJECT_DIR$/public/admin/layouts/admin/footer/include_js.php" />
         <option value="$PROJECT_DIR$/public/admin/layouts/admin/header/include_css.php" />
-        <option value="$PROJECT_DIR$/includes/user/UserCategory.php" />
-        <option value="$PROJECT_DIR$/includes/database/DatabaseObject.php" />
-        <option value="$PROJECT_DIR$/public/admin/ajax_user_category.php" />
+        <option value="$PROJECT_DIR$/Documentation/Database/User.txt" />
         <option value="$PROJECT_DIR$/public/admin/add_user_category.php" />
+        <option value="$PROJECT_DIR$/includes/initialize/admin_initialize.php" />
         <option value="$PROJECT_DIR$/public/admin/ajax.php" />
+        <option value="$PROJECT_DIR$/includes/user/assigned_user_category.php" />
+        <option value="$PROJECT_DIR$/includes/user/UserCategory.php" />
+        <option value="$PROJECT_DIR$/includes/user/user.php" />
+        <option value="$PROJECT_DIR$/includes/user/user_picture.php" />
+        <option value="$PROJECT_DIR$/includes/Functions/functions.php" />
+        <option value="$PROJECT_DIR$/public/admin/add_user.php" />
       </list>
     </option>
   </component>
@@ -219,12 +581,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-12" />
-    <option name="width" value="1612" />
-    <option name="height" value="867" />
+    <option name="x" value="257" />
+    <option name="width" value="1343" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -244,8 +606,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,12 +628,6 @@
               <item name="Inventory-Management" type="b2602c69:ProjectViewProjectNode" />
               <item name="Inventory-Management" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Inventory-Management" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inventory-Management" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Inventory-Management" type="b2602c69:ProjectViewProjectNode" />
@@ -304,31 +658,74 @@
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Inventory-Management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Inventory-Management" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Inventory-Management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Inventory-Management" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Inventory-Management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Inventory-Management" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Inventory-Management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Inventory-Management" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Inventory-Management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Inventory-Management" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="uploads" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Inventory-Management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Inventory-Management" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="uploads" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="user_img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/layouts/requester" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Inventory-Management\public\assets\javascripts" />
-      <recent name="C:\xampp\htdocs\Inventory-Management\public\admin\assets\javascripts" />
-      <recent name="C:\xampp\htdocs\Inventory-Management\public\admin" />
-      <recent name="C:\xampp\htdocs\Inventory-Management\public\admin\assets\javascripts\morris" />
-      <recent name="C:\xampp\htdocs\Inventory-Management\public\layouts\requester" />
+      <recent name="C:\xampp\htdocs\Inventory-Management\public\admin\assets\semantic" />
+      <recent name="C:\xampp\htdocs\Inventory-Management\uploads\user-img" />
+      <recent name="C:\xampp\htdocs\Inventory-Management\public\admin\assets" />
+      <recent name="C:\xampp\htdocs\Inventory-Management\public\admin\assets\js" />
+      <recent name="C:\xampp\htdocs\Inventory-Management\public\admin\assets\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Inventory-Management\includes\user" />
+      <recent name="C:\xampp\htdocs\Inventory-Management\public\admin\assets\javascripts\bootstrap" />
       <recent name="C:\xampp\htdocs\Inventory-Management\public\admin\assets\javascripts" />
+      <recent name="C:\xampp\htdocs\Inventory-Management\public\admin\assets\semantic" />
+      <recent name="C:\xampp\htdocs\Inventory-Management\includes\user" />
       <recent name="C:\xampp\htdocs\Inventory-Management\public\admin" />
-      <recent name="C:\xampp\htdocs\Inventory-Management\public\admin\layouts" />
-      <recent name="C:\xampp\htdocs\Inventory-Management\public\layouts\admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,26 +740,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.add_user_category.php">
+  <component name="RunManager" selected="JavaScript Debug.add_user.php">
+    <configuration name="localhost" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method>
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="add_user.php" run_configuration_type="JavascriptDebugType" />
+      </method>
+    </configuration>
     <configuration name="add_user_category.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Inventory-Management/public/admin/add_user_category.php" />
-    <configuration name="add_user.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Inventory-Management/public/admin/add_user.php" />
-    <configuration name="blank.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Inventory-Management/public/admin/blank.php" />
-    <configuration name="form.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Inventory-Management/public/admin/form.php" />
+    <configuration name="add_user.php" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/Inventory-Management/public/admin/add_user.php" />
+    <configuration name="include_css.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Inventory-Management/public/admin/layouts/admin/header/include_css.php" />
     <configuration name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Inventory-Management/public/admin/index.php" />
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.blank.php" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.form.php" />
+    <configuration name="add_user_category.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/public/admin/add_user_category.php" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Firefox Remote.localhost" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.add_user.php" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
       <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.add_user_category.php" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.add_user.php" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.include_css.php" />
+      <item index="5" class="java.lang.String" itemvalue="PHP Script.add_user_category.php" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.add_user_category.php" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.add_user.php" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.form.php" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.blank.php" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.add_user_category.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.include_css.php" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
       </list>
     </recent_temporary>
   </component>
@@ -389,29 +791,32 @@
       <workItem from="1514794660020" duration="29555000" />
       <workItem from="1514981762267" duration="336000" />
       <workItem from="1514982382859" duration="17134000" />
-      <workItem from="1515154181363" duration="14363000" />
+      <workItem from="1515154181363" duration="16170000" />
+      <workItem from="1515235562549" duration="26135000" />
+      <workItem from="1515409464810" duration="610000" />
+      <workItem from="1515473901437" duration="35696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128551000" />
+    <option name="totallyTimeSpent" value="192799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.189375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41073385" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42297298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -432,257 +837,49 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="15" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/user/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <marker date="1514902371330" expanded="true" signature="1359:1378" ph="select * fro... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/add_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/add_user_category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/database/DatabaseObject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <marker date="1515205346001" expanded="true" signature="307:320" ph="SELECT * FRO... " />
-            <marker date="1515205346001" expanded="true" signature="307:321" ph="SELECT * FRO... ${self::$table_name}" />
-            <marker date="1515205346001" expanded="true" signature="525:589" ph="SELECT * FRO... ${self::$table_name}" />
-            <marker date="1515205346001" expanded="true" signature="891:951" ph="SELECT id FR... ${static::$table_name}" />
-            <marker date="1515205346001" expanded="true" signature="891:952" ph="SELECT id FR... ${static::$table_name}" />
-            <marker date="1515205346001" expanded="true" signature="891:962" ph="SELECT id FR... ${static::$table_name}" />
-            <marker date="1515205346001" expanded="true" signature="891:985" ph="SELECT id FR... ${static::$table_name}" />
-            <marker date="1515205346001" expanded="true" signature="891:1980" ph="SELECT id FR... ${static::$table_name}" />
-            <marker date="1515205346001" expanded="true" signature="1278:1335" ph="SELECT * FRO... ${static::$table_name}" />
-            <marker date="1515205346001" expanded="true" signature="1278:1343" ph="SELECT * FRO... ${static::$table_name}" />
-            <marker date="1515205346001" expanded="true" signature="1938:1959" ph="SELECT COUNT... ${self::$table_name}" />
-            <marker date="1515205346001" expanded="true" signature="4423:4460" ph="INSERT INTO ${self::$table_name}... " />
-            <marker date="1515205346001" expanded="true" signature="5821:5833" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/layouts/admin/header/admin_header.php">
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/stylesheets/dropdown.css" />
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/javascripts/dropdown.js" />
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/stylesheets/react-super-select.css" />
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/javascripts/react-super-select.js" />
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/stylesheets/select2.css" />
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/stylesheets/custom.css" />
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/javascripts/bootstrap.min.js" />
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/javascripts/custom.js" />
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/javascripts/select2.full.min.js" />
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/javascripts/select2.full.js" />
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/stylesheets/bootstrap/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/stylesheets/select2.full.js" />
+    <entry file="file://$PROJECT_DIR$/public/admin/css/custom.css" />
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/blank.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/blank.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/initialize/path_initialize.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="124" lean-forward="false" selection-start-line="20" selection-start-column="124" selection-end-line="20" selection-end-column="124" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/layouts/requester/footer/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/layouts/requester/header/header.php">
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/js/jquery-3.2.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="400" column="48" lean-forward="false" selection-start-line="400" selection-start-column="48" selection-end-line="400" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/initialize/initialize.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/assets/javascripts/dataTables/jquery.dataTables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" column="53" lean-forward="true" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/assets/javascripts/morris/lib/morris.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/assets/javascripts/morris/morris-min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/layouts/admin/header/include_js.php" />
-    <entry file="file://$PROJECT_DIR$/public/layouts/requester/header/include_js.php" />
-    <entry file="file://$PROJECT_DIR$/public/admin/assets/javascripts/morris/raphael-2.1.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/layouts/requester/header/include_css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/layouts/admin/footer/admin_footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/layouts/requester/footer/include_js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Documentation/Database/Database Structure.txt" />
-    <entry file="file://$PROJECT_DIR$/Documentation/Database/User.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="69" column="47" lean-forward="true" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/Erorrs.php" />
-    <entry file="file://$PROJECT_DIR$/public/admin/blank.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/database/db_config.php">
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/database/database.php">
+    <entry file="file://$PROJECT_DIR$/public/assets/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-976">
-          <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/Functions/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/layouts/admin/header/Navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/Errors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="84" column="2" lean-forward="false" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
-          <folding>
-            <element signature="e#7#115#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -690,28 +887,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/GeneralClass.php" />
-    <entry file="file://$PROJECT_DIR$/includes/initialize/admin_initialize.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/add_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/javascripts/jquery-3.2.1.min.js">
+    <entry file="file://$PROJECT_DIR$/public/admin/table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -720,69 +899,174 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/admin/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3043">
-          <caret line="182" column="50" lean-forward="false" selection-start-line="182" selection-start-column="50" selection-end-line="182" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="487">
+          <caret line="362" column="3" lean-forward="true" selection-start-line="362" selection-start-column="3" selection-end-line="363" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/layouts/admin/footer/include_js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/layouts/admin/header/admin_header.php">
+    <entry file="file://$PROJECT_DIR$/public/admin/blank.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/layouts/admin/header/include_css.php">
+    <entry file="file://$PROJECT_DIR$/public/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="85" lean-forward="false" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
+        <state relative-caret-position="1156">
+          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/user/user.php">
+    <entry file="file://$PROJECT_DIR$/public/admin/layouts/admin/header/Navigation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <marker date="1514902371330" expanded="true" signature="1359:1378" ph="select * fro... users" />
-          </folding>
+        <state relative-caret-position="-557">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/assets/javascripts/jquery-3.2.1.min.js">
+    <entry file="file://$PROJECT_DIR$/includes/initialize/initialize.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/assets/javascripts/jquery-1.10.2.js">
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/js/select2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="5112" column="51" lean-forward="false" selection-start-line="5112" selection-start-column="43" selection-end-line="5112" selection-end-column="51" />
+        <state relative-caret-position="17">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1509842935000" expanded="true" signature="46092:46099" ph="×" />
+            <marker date="1509842935000" expanded="true" signature="50383:50390" ph="×" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/user/UserCategory.php">
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/css/select2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="-1275">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/layouts/admin/footer/admin_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/initialize/path_initialize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/js/pwstrength-bootstrap.min.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/layouts/admin/header/admin_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/bootstrap-4.0.0/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/img/find_user.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/img/4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/img/3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/img/2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/assets/img/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Documentation/Database/User.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/layouts/admin/header/include_css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1515515370429" expanded="true" signature="638:777" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/layouts/admin/footer/include_js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1515515357732" expanded="true" signature="29:79" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/initialize/admin_initialize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/database/DatabaseObject.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        <state relative-caret-position="217">
+          <caret line="179" column="17" lean-forward="false" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="17" />
           <folding>
             <marker date="1515205346001" expanded="true" signature="307:320" ph="SELECT * FRO... " />
             <marker date="1515205346001" expanded="true" signature="307:321" ph="SELECT * FRO... ${self::$table_name}" />
@@ -791,29 +1075,87 @@
             <marker date="1515205346001" expanded="true" signature="891:952" ph="SELECT id FR... ${static::$table_name}" />
             <marker date="1515205346001" expanded="true" signature="891:962" ph="SELECT id FR... ${static::$table_name}" />
             <marker date="1515205346001" expanded="true" signature="891:985" ph="SELECT id FR... ${static::$table_name}" />
-            <marker date="1515205346001" expanded="true" signature="891:1980" ph="SELECT id FR... ${static::$table_name}" />
             <marker date="1515205346001" expanded="true" signature="1278:1335" ph="SELECT * FRO... ${static::$table_name}" />
-            <marker date="1515205346001" expanded="true" signature="1278:1343" ph="SELECT * FRO... ${static::$table_name}" />
-            <marker date="1515205346001" expanded="true" signature="1938:1959" ph="SELECT COUNT... ${self::$table_name}" />
-            <marker date="1515205346001" expanded="true" signature="4423:4460" ph="INSERT INTO ${self::$table_name}... " />
-            <marker date="1515205346001" expanded="true" signature="5821:5833" ph="DELETE FROM " />
+            <marker date="1515205346001" expanded="true" signature="1938:1959" ph="SELECT COUNT... ${static::$table_name}" />
+            <marker date="1515205346001" expanded="true" signature="4423:4460" ph="INSERT INTO ${static::$table_name}... " />
+            <marker date="1515205346001" expanded="true" signature="5821:5833" ph="DELETE FROM ${static::$table_name}... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/add_user_category.php">
+    <entry file="file://$PROJECT_DIR$/includes/user/UserCategory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="49" column="26" lean-forward="false" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        <state relative-caret-position="229">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/user/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1515564365725" expanded="true" signature="1786:1805" ph="select * fro... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/admin/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/user/assigned_user_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/add_user_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="78" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/user/user_picture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="109" column="53" lean-forward="true" selection-start-line="109" selection-start-column="53" selection-end-line="109" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/Functions/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/add_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <marker date="1515589055092" expanded="true" signature="3016:3063" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

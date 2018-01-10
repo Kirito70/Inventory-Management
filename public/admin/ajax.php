@@ -26,7 +26,7 @@ if(isset($_POST['username']) && !empty($_POST['username']) )
     $temp_user = new User();
     $temp_user->username = $_POST['username'];
 
-    if($temp_category->category_exists())
+    if($temp_user->user_exists())
     {
         echo true;
     }
